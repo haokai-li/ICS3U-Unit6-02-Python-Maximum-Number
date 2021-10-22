@@ -15,7 +15,9 @@ def calculated_maximum_number(calculate_my_numbers):
     for loop_number_second in range(0, len(calculate_my_numbers)):
         # output
         print(
-            "The random number is {0}".format(calculate_my_numbers[loop_number_second])
+            "The random number {0} is {1}".format(
+                loop_number_second + 1, calculate_my_numbers[loop_number_second]
+            )
         )
 
         if calculate_my_numbers[loop_number_second] > total_number:
@@ -44,7 +46,7 @@ def main():
 
     # output
     print("")
-    print("Answer: {0}".format(maximum_number))
+    print("The largest number is: {0}".format(maximum_number))
 
     print("\nDone.")
 
