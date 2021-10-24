@@ -38,7 +38,7 @@ def main():
         my_numbers.append(calculate_number)
 
     # output
-    print("Here is a list of random numbers")
+    print("Here is a list of random numbers:")
     print("")
 
     # call functions
